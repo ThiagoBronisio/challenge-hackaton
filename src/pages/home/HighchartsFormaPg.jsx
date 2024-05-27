@@ -4,7 +4,7 @@ import HighchartsReact from 'highcharts-react-official';
 import { ContainerChart, WrapperContainerChart, WrapperContainerText, ButtonEvolucao } from '../../style';
 import { Typewriter } from "react-simple-typewriter";
 
-const API_URL = "http://localhost:5062/api/Financa/ClienteData";
+const API_URL = "http://localhost:5062/api/Financa/DataGeral";
 
 
 
@@ -113,7 +113,7 @@ const HighchartsFormaPg = () => {
                                 cursor
                                 cursorStyle='|'
                                 typeSpeed={20}
-                                words={['De acordo com os dados fornecidos, o método de pagamento mais usado pelos clientes é a Transferência Bancária, representando aproximadamente 26.22% das compras. Este é seguido de perto pelo Pix e Débito Automático, com Boleto sendo o menos utilizado. Essa análise sugere que a Transferência Bancária é a preferência dominante entre os clientes, embora as diferenças entre os métodos não sejam muito grandes.']}
+                                words={['De acordo com os dados fornecidos, o método de pagamento mais usado pelos clientes é a Transferência Bancária, representando aproximadamente 26.22% das compras. Este é seguido de perto pelo Pix e Débito Automático, com Boleto sendo o menos utilizado. Essa análise sugere que a Transferência Bancária é a preferência dominante entre os clientes, embora as diferenças entre os métodos não sejam muito grandes. Visto uma sincera diferença entre as principais escolhas: Pix e transferência bancária, é viável pensar em formas para adicionar aos ganhos gerais da empresa como: Descontos e Parcelas, para que o fluxo geral seja majoritariamente positivo.']}
                             />
                         </div>
                     )}

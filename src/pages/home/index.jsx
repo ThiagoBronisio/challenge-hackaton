@@ -1,5 +1,4 @@
 import Navbar from './Navbar.jsx';
-import { Separator } from '../../style.jsx';
 import Main from './Main.jsx';
 import { Outlet, useLocation } from 'react-router-dom';
 

@@ -34,7 +34,7 @@ const options = {
     },
     series: [
         {
-            name: 'teste',
+            name: 'Clientes',
             data: [120, 106, 100, 93, 116],
         },
     ],

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import animationData from '../../assets/Animation.json';
 import Lottie from 'lottie-react';
-import { ContainerLottie, ContainerInto, ContainerMain, ButtonMain } from '../../style';
+import { ContainerLottie, ContainerInto, ContainerMain, ButtonMain, ButtonMain2 } from '../../style';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
 
@@ -39,9 +39,13 @@ function Main() {
                                 <span>
                                     Olá <span style={{ color: "#21b9de", fontWeight: "bold" }}>Drop Table</span>, que tal fazermos análise de dados sobre sua empresa ?
                                 </span>
-                                <Link to='/analises'>
-                                    <ButtonMain>Começar agora</ButtonMain>
-                                </Link>
+                                    <Link to='/analises'>
+                                        <ButtonMain>Análise gráfica</ButtonMain>
+                                    </Link>
+                                    <Link to='/table'>
+                                        <ButtonMain2>Análise detalhada</ButtonMain2>
+                                    </Link>
+
                             </div>
 
                         </div>

@@ -2,7 +2,7 @@ import logo from "../../assets/logoGiom.png"
 import iconCompany from "../../assets/empresa.svg"
 import iconGrafico from "../../assets/imgGrafico.svg"
 import { ContainerHeader, WrapperImgCompany, WrapperLogoGiom, WrapperImgCompanyContent } from "../../style"
-import { Outlet, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (

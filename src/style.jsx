@@ -113,13 +113,35 @@ width: 50%;
 padding: 10px;
 border-radius: 20px;
 margin-top: 16px;
-color: white;
+color: #fff;
 font-weight: bold;
 
 &:hover {
     background-color: #21b9de;
     border-color: #87d2e4;
     color: #000;
+    transition: all 0.3s ease
+  }
+`
+
+export const ButtonMain2 = styled.button`
+display: flex;
+justify-content: center;
+align-items: end;
+border: 2px solid #7c7c7c;
+background-color: #b0b8c0;
+height: 48px;
+width: 50%;
+padding: 10px;
+border-radius: 20px;
+margin-top: 16px;
+color: #fff;
+font-weight: bold;
+
+&:hover {
+    background-color: #7c7c7c;
+    border-color: #b0b8c0;
+    color: black;
     transition: all 0.3s ease
   }
 `
